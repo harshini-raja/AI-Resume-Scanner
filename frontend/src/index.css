@@ -1,0 +1,140 @@
+/* Global Body Styling */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f7fc;
+  color: #333; /* Improved text color */
+}
+.heading1 {
+  background-color: #2b3bf0;
+}
+/* Header */
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #003366;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Container to center and add padding */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+/* Card Styling */
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for modern look */
+}
+
+/* Card content and spacing */
+.card-content {
+  padding: 25px;
+  margin-bottom: 40px;
+}
+
+/* Form Control Input Fields */
+.form-control {
+  margin-bottom: 20px; /* Space between elements */
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+/* Custom File Upload Button */
+.custom-file-upload {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #a1d72c; /* Blue color for Choose File button */
+  color: white;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-bottom: 30px; /* Space below the file upload button */
+}
+
+/* Hide default file input */
+input[type="file"] {
+  display: none;
+}
+
+/* Hover effect for custom file input */
+.custom-file-upload:hover {
+  color: white;
+  background-color: #2b3bf0; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Button Styling */
+button {
+  border-radius: 50px;
+  padding: 12px 30px;
+  background-color: #28a745; /* Green */
+  border: 1px solid #28a745;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  width: 100%; /* Full-width button */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 20px; /* Add margin-top for spacing */
+}
+
+/* Button Hover Effect */
+button:hover {
+  background-color: #218838;
+  cursor: pointer;
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Textarea Styling */
+textarea {
+  margin-top: 20px; /* Add space above the textarea */
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  font-size: 16px;
+}
+
+/* Label Styling */
+label[for="jobDescription"] {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px; /* Move the label down */
+  display: flow-root; /* Make sure label and textarea are on separate lines */
+}
+
+/* Spacing and Layout Fixes for Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px; /* Increased gap for better spacing */
+}
+
+/* Align the footer text */
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  margin-top: 30px;
+}
+
+/* Footer text styling */
+footer {
+  font-size: 12px;
+  color: #888;
+}

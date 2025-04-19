@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-airesumescanner-dev-cb879-authRole",
+      "UnauthRoleArn": "arn:aws:iam::329599659950:role/amplify-airesumescanner-dev-cb879-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::329599659950:role/amplify-airesumescanner-dev-cb879-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-airesumescanner-dev-cb879-deployment",
+      "UnauthRoleName": "amplify-airesumescanner-dev-cb879-unauthRole",
+      "StackName": "amplify-airesumescanner-dev-cb879",
+      "StackId": "arn:aws:cloudformation:us-east-2:329599659950:stack/amplify-airesumescanner-dev-cb879/d37bdcb0-08dd-11f0-84ca-0a9c2ebc5821",
+      "AmplifyAppId": "d2472r7hmvfd3i"
+    },
+    "categories": {
+      "auth": {
+        "airesumescannerc1be33c1": {}
+      }
+    }
+  }
+}
